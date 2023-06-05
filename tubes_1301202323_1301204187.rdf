@@ -1,0 +1,858 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://www.semanticweb.org/user/ontologies/2023/4/tubes/"
+     xml:base="http://www.semanticweb.org/user/ontologies/2023/4/tubes/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+    <owl:Ontology rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes">
+        <rdfs:comment>tubes 1301202323, 1301204187</rdfs:comment>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KD -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KPUOnline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KPUOnline">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KdK -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KdK">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/LB -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PM -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PM">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PPD -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PPD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PdI -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PdI">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/applikasiWarningBencana -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/applikasiWarningBencana">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KdK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/deteksiWajah -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/deteksiWajah">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KdK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/dilengkapiRekamanMusik -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/dilengkapiRekamanMusik">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PdI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/dilengkapiSensorDayaListrik -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/dilengkapiSensorDayaListrik">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/fiturInfraRed -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/fiturInfraRed">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KdK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/konsultasiDokterOnline -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/konsultasiDokterOnline">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/memilikiJaringanPemantauKejahatan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/memilikiJaringanPemantauKejahatan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KdK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/memilikiWifi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/memilikiWifi">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menanamPohonTerbarukan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menanamPohonTerbarukan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/mendeteksiKebocoranGas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/mendeteksiKebocoranGas">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KdK"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/mendukungStartUp -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/mendukungStartUp">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PM"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menerapkanParkirDigital -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menerapkanParkirDigital">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menerapkanSewaDigital -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menerapkanSewaDigital">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menerimaSuratElektronik -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menerimaSuratElektronik">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PPD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/mengadakanPameranTeknologi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/mengadakanPameranTeknologi">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PdI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/mengelolaSampahEfisien -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/mengelolaSampahEfisien">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/mengelolaSampahOtomatis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/mengelolaSampahOtomatis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menggunakanPembayaranElektronik -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menggunakanPembayaranElektronik">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menggunakanSensorUdara -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menggunakanSensorUdara">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanDataRealTime -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanDataRealTime">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanEBookGratis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanEBookGratis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PdI"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanFiturPencarianLengkap -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanFiturPencarianLengkap">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanInfoKesehatan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanInfoKesehatan">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanInformasiPencegahanPenyakit -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanInformasiPencegahanPenyakit">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanResepDigital -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanResepDigital">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanRuangDaring -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanRuangDaring">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanSewaSepedaOtomatis -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/menyediakanSewaSepedaOtomatis">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TC"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/programPelatihan -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/programPelatihan">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/sistemHematEnergi -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/sistemHematEnergi">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LB"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/tanggapanCepatPetugas -->
+
+    <owl:ObjectProperty rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/tanggapanCepatPetugas">
+        <rdfs:subPropertyOf rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PPD"/>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/Keamanan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/Keamanan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/KesehatanDigital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/KesehatanDigital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/LingkunganBerkelanjutan -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LingkunganBerkelanjutan"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/Masyarakat -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/Masyarakat"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PelayananPublikDigital -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PelayananPublikDigital"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PendidikanDanInovasi -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PendidikanDanInovasi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/TransportasiCerdas -->
+
+    <owl:Class rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TransportasiCerdas"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiAspirasiKota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiAspirasiKota"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiKesehatanCisitu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiKesehatanCisitu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiLaporBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiLaporBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiPartisipasiWarga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiPartisipasiWarga"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiPengaduanPublik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiPengaduanPublik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PelayananPublikDigital"/>
+        <menyediakanDataRealTime rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiLaporBandung"/>
+        <tanggapanCepatPetugas rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiAspirasiKota"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiSehatBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiSehatBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiSuarakanBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiSuarakanBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/AppPartisipasiWarga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AppPartisipasiWarga">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/Masyarakat"/>
+        <menyediakanFiturPencarianLengkap rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiSuarakanBandung"/>
+        <menyediakanRuangDaring rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiPartisipasiWarga"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ApplikasiKesMas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ApplikasiKesMas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/KesehatanDigital"/>
+        <menyediakanFiturPencarianLengkap rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiKesehatanCisitu"/>
+        <menyediakanInfoKesehatan rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/AplikasiSehatBandung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ForumDiskusiBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ForumDiskusiBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/HalteDago -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/HalteDago"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/InfoPublik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/InfoPublik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/Masyarakat"/>
+        <menyediakanDataRealTime rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInformasiWarga"/>
+        <menyediakanRuangDaring rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ForumDiskusiBandung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/InovasiTeknologi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/InovasiTeknologi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PendidikanDanInovasi"/>
+        <mengadakanPameranTeknologi rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInovasiBandung"/>
+        <menyediakanRuangDaring rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInovasiITB"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/JaringanSepeda -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/JaringanSepeda">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TransportasiCerdas"/>
+        <menerapkanSewaDigital rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunSepedaSetiabudi"/>
+        <menyediakanSewaSepedaOtomatis rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunSepedaCihampelas"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/JaringanTransportasiPublik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/JaringanTransportasiPublik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TransportasiCerdas"/>
+        <memilikiWifi rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/HalteDago"/>
+        <menggunakanPembayaranElektronik rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunKeretaBandung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KameraCCTVBraga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KameraCCTVBraga"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KameraCCTVDago -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KameraCCTVDago"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorKelurahanAntapani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorKelurahanAntapani"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorKelurahanArcamanik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorKelurahanArcamanik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorPolisiAntapani -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorPolisiAntapani"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorPolisiSukajadi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorPolisiSukajadi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KlinikOnlineBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KlinikOnlineBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/KualitasUdara -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KualitasUdara">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LingkunganBerkelanjutan"/>
+        <menggunakanSensorUdara rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorDago"/>
+        <menyediakanDataRealTime rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorCisitu"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/LayananKesehatanDaring -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LayananKesehatanDaring"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/LayananSuratElektronik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LayananSuratElektronik">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PelayananPublikDigital"/>
+        <menerimaSuratElektronik rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorKelurahanArcamanik"/>
+        <menyediakanDataRealTime rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorKelurahanAntapani"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/MononitorinKesMas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/MononitorinKesMas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/KesehatanDigital"/>
+        <menyediakanDataRealTime rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorAirCiwidey"/>
+        <menyediakanInformasiPencegahanPenyakit rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorAirCikapundung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirBalaiKota -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirBalaiKota"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirMikoMall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirMikoMall"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirPintar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirPintar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TransportasiCerdas"/>
+        <dilengkapiSensorDayaListrik rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirMikoMall"/>
+        <menerapkanParkirDigital rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ParkirBalaiKota"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PengawasCerdas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PengawasCerdas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/Keamanan"/>
+        <deteksiWajah rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KameraCCTVBraga"/>
+        <fiturInfraRed rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KameraCCTVDago"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpusGanesha -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpusGanesha"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpusJatinangor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpusJatinangor"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpustakaanDigital -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpustakaanDigital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PendidikanDanInovasi"/>
+        <menyediakanEBookGratis rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpusGanesha"/>
+        <menyediakanRuangDaring rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PerpusJatinangor"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalBeritaBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalBeritaBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalInformasi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalInformasi">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PelayananPublikDigital"/>
+        <menyediakanDataRealTime rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalBeritaBandung"/>
+        <menyediakanFiturPencarianLengkap rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalInformasiPublik"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalInformasiPublik -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PortalInformasiPublik"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramBandungMaju -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramBandungMaju"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramInovasiWarga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramInovasiWarga"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramPelatihanDigital -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramPelatihanDigital">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/Masyarakat"/>
+        <mendukungStartUp rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramInovasiWarga"/>
+        <programPelatihan rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/ProgramBandungMaju"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInformasiWarga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInformasiWarga"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInovasiBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInovasiBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInovasiITB -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PusatInovasiITB"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangCreativeHub -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangCreativeHub"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangKreatif -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangKreatif">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/PendidikanDanInovasi"/>
+        <dilengkapiRekamanMusik rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangCreativeHub"/>
+        <mengadakanPameranTeknologi rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/RuangBandung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SampahCerdas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SampahCerdas">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LingkunganBerkelanjutan"/>
+        <mengelolaSampahEfisien rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TPSBuahBatu"/>
+        <mengelolaSampahOtomatis rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TPSMawar"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorAirCikapundung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorAirCikapundung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorAirCiwidey -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorAirCiwidey"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorCisitu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorCisitu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorCuacaBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorCuacaBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorDago -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorDago"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SistemKeamanan -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SistemKeamanan">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/Keamanan"/>
+        <memilikiJaringanPemantauKejahatan rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorPolisiSukajadi"/>
+        <mendeteksiKebocoranGas rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KantorPolisiAntapani"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SistemPeringatanBencana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SistemPeringatanBencana"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/SistemPeringatanDiniBencana -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SistemPeringatanDiniBencana">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/Keamanan"/>
+        <applikasiWarningBencana rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SistemPeringatanBencana"/>
+        <menyediakanDataRealTime rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/SensorCuacaBandung"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunKeretaBandung -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunKeretaBandung"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunSepedaCihampelas -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunSepedaCihampelas"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunSepedaSetiabudi -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/StasiunSepedaSetiabudi"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/TPSBuahBatu -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TPSBuahBatu"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/TPSMawar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TPSMawar"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanAlunAlun -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanAlunAlun"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanBraga -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanBraga"/>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanKotaPintar -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanKotaPintar">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LingkunganBerkelanjutan"/>
+        <menanamPohonTerbarukan rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanBraga"/>
+        <sistemHematEnergi rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/TamanAlunAlun"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/user/ontologies/2023/4/tubes/Telemedicine -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/user/ontologies/2023/4/tubes/Telemedicine">
+        <rdf:type rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/smartCityOntology/KesehatanDigital"/>
+        <konsultasiDokterOnline rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/LayananKesehatanDaring"/>
+        <menyediakanResepDigital rdf:resource="http://www.semanticweb.org/user/ontologies/2023/4/tubes/KlinikOnlineBandung"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.25.2023-02-15T19:15:49Z) https://github.com/owlcs/owlapi -->
+
